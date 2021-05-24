@@ -64,7 +64,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      name: 'MyAgetnPool'
+      name: 'MyAgentPool'
     environment: dev
     variables:
     - group: Release
